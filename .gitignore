@@ -1,0 +1,22 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.vscode/
+
+# Model files
+*.pt
+*.pth
+*.onnx
+
+# Data
+data/
+outputs/
